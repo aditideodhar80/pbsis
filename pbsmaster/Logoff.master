@@ -1,0 +1,112 @@
+<%@ Master Language="VB" CodeFile="Logoff.master.vb" Inherits="pbsmaster_Logoff" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>FLPBS Site</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript" src="../display/mm_menu.js"></script>
+<script type="text/javascript" language="JavaScript" src="../display/mm_menu2.js"></script>
+<link href="../display/pbsStyles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+-->
+</style></head>
+
+<body onload="MM_preloadImages('../images/top-navigation01-over_01.gif','../images/top-navigation01-over_02.gif','../images/top-navigation01-over_03.gif','../images/top-navigation01-over_04.gif','../images/top-navigation01-over_05.gif','../images/top-navigation01-over_06.gif','../images/top-navigation01-over_07.gif','../images/top-navigation01-over_08.gif','../images/top-navigation01-over_09.gif')">
+
+
+<form id="Form1" runat="server" visible="true">
+<script type="text/javascript" language="JavaScript1.2">    mmLoadMenus();</script>
+<table width="800" border="0" cellspacing="0" cellpadding="0" 
+    style="width: 800px">
+  
+  <tr>
+    <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td colspan="3"><img src="../images/box-top.gif" width="800" height="1"></td>
+        </tr>
+        <tr>
+           <td width="4" bgcolor="#92BC4E" rowspan="4" align="left" valign="top" background="../images/bounding-box-line-left-side.gif">
+               &nbsp;</td>
+          <td width="789" align="left" valign="top">
+          <table width="100%"  border="0" align="left" cellpadding="0" cellspacing="0">
+              <tr>
+             
+               
+                <%--<td>&nbsp;</td>--%>
+                <td align="right"></td>
+                
+              </tr>
+              <tr>
+               
+               
+   <%--<td width="8" bgcolor="#92BC4E">&nbsp;</td>--%>
+                <td align="left" valign="top" >
+                  <div align="left">
+                    <table width="100%"  border="1" cellspacing="0" cellpadding="0">
+                     
+                      
+                      <tr>
+                        <td bgcolor="#92BC4E"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                         
+                       
+                          <tr>
+                            <td height="2" align="left" valign="top" >
+						
+							<table width="650" border="0" cellpadding="0" cellspacing="0">
+                             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                 <tr>
+                                     <td>
+                                         &nbsp;</td>
+                                 </tr>
+                    </asp:ContentPlaceHolder>
+                            </table>
+						
+							</td>
+                          </tr>
+                          </table></td>
+                      </tr>
+                    </table>
+                  </div></td>
+               
+              </tr>
+             
+          </table></td>
+          <%--<td width="6"  bgcolor="#92BC4E"><asp:Image ID="Image1" runat="server" ImageUrl="../images/bounding-box-line-right-sid.gif" />&nbsp;</td>--%>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><img src="../images/box-top.gif" width="800" height="1"/></td>
+  </tr>
+   <tr>
+          
+          <td height="19" align="center" valign="top" bgcolor="#424242" >
+          <div style='color:#FFFFFF;font-family: Arial, Helvetica, sans-serif; font-size: 13px;padding-top: 2px;'>Contact FLPBS Today &nbsp;&nbsp;&nbsp; &nbsp;813-974-6440&nbsp;&nbsp; &nbsp;&nbsp; flpbs@fmhi.usf.edu </div></td>
+</tr>
+        
+</table>
+
+
+
+
+
+</form>
+</body>
+</html>

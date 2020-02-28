@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menuitems>
+  <schoolprofile>
+    <menuitem title="Data Entry" path="~/school/dentryview.aspx" tag="Data Entry" />
+    <menuitem title="Data History" path="~/pbsisrpts/schfrmdataview.aspx" tag="Data History" />
+    <menuitem title="Reports" path="~/pbsisrpts/rptschmpage.aspx" tag="Reports" />
+    <menuitem title="Menu" path="~/school/school_mainmenu.aspx" tag="Menu" />
+    <menuitem title="Logout" path="~/users/pbslogoff.aspx" tag="Logout" />
+  </schoolprofile>
+  <districtprofile>
+    <menuitem title="Accounts" path="~/district/dist_profilemenu.aspx" tag="Accounts" />
+    <menuitem title="Mid-Yr DLR" path="~/pbsisrpts/midyr_district_dlr.aspx" tag="Mid-Yr DLR" />
+    <menuitem title="End-Yr DLR" path="~/pbsisrpts/endyr_district_dlr.aspx" tag="End-Yr DLR" />
+    <menuitem title="Mid-Yr SLR" path="~/district/schoolaccess_monitoring.aspx?qOptID=MidYearSLR" tag="Mid-Yr SLR" />
+    <menuitem title="End-Yr SLR" path="~/district/schoolaccess_monitoring.aspx?qOptID=EndYearSLR" tag="End-Yr SLR" />
+    <menuitem title="Menu" path="~/district/district_mainmenu.aspx" tag="Menu" />
+    <menuitem title="Logout" path="~/users/pbslogoff.aspx" tag="Logout" />
+  </districtprofile>
+  <fmhiprofile>
+    <menuitem title="Accounts" path="~/fmhiadmin/fmhi_districtprofilemenu.aspx" tag="Accounts" />
+    <menuitem title="Form/School Yr" path="~/fmhiadmin/fmhi_formactivation.aspx" tag="Form/School Yr" />
+    <menuitem title="Menu" path="~/fmhiadmin/fmhi_mainmenu.aspx" tag="Menu" />
+    <menuitem title="Logout" path="~/users/pbslogoff.aspx" tag="Logout" />
+  </fmhiprofile>
+</menuitems>

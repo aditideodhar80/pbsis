@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<charts>
+  <chartsettings>
+    <chart id="22" height="500" width="735">
+      <Title enabled="True">
+        <text>Bay - Tier 1 Critical Elements (Grouped by PreK)</text>
+        <font face="Arial" color="Black" size="10"></font>
+      </Title>
+      <!--<Subtitle enabled="True">
+        <text>Avg Benchmark Score per Critical Element Category (Elementary)</text>
+        <font face="Arial" color="Black" size="10"></font>
+      </Subtitle>-->
+      <Legend enabled="True" vertical="True" x="" y="">
+        <font size="" face=""></font>
+        <text>
+          <one>Fall</one>
+          <two>Spring</two>
+        </text>
+      </Legend>
+      <Multibar enabled="False"></Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation checklist/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg PBS per 100 Students</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <Data type="db">
+        <label>
+          <font style="" size="10" color="00000000" angle="55"></font>
+        </label>
+        <series id="22" name="BOQ" type="Bar">
+            <point name="Coach and Team" />
+            <point name="Buy-In"/>
+            <point name="Expectations"/>
+            <point name="Regards"/>
+            <point name="Discipline"/>
+            <point name="DBDM"/>
+            <point name="Training"/>
+            <point name="Parents/Community"/>
+         </series>
+      </Data>
+    </chart>
+
+
+    <chart id="2" height="" width="">
+      <Title enabled="True">
+        <text>Hillsborough 2"\n" Avg Benchmark Score per Critical Element Category (Elementary) </text>
+        <font face="Arial" color="Black" size="12"></font>
+      </Title>
+      <!--<Subtitle enabled="True">
+        <text>Avg Benchmark Score per Critical Element Category (Elementary)</text>
+        <font face="Arial" color="Black" size="10"></font>
+      </Subtitle>-->
+      <Legend enabled="False"></Legend>
+      <Multibar enabled="False"></Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <XAxisTitle enabled="True">
+        <text>Critical Element Category</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>250</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Data type="xml">
+        <label>
+          <font style="" size="10" color="00000000" angle="0"></font>
+        </label>
+        <series name="BOQ" type="Bar">
+          <point name="Mon" y="85"/>
+          <point name="Tue" y="156"/>
+          <point name="Wed" y="179.5"/>
+          <point name="Thu" y="211"/>
+          <point name="Fri" y="123"/>
+        </series>
+      </Data>
+    </chart>
+
+  </chartsettings>
+</charts>

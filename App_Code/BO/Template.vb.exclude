@@ -1,0 +1,79 @@
+﻿Imports Microsoft.VisualBasic
+
+Public Class Template
+    Public Class HyperLinkTemplate
+        Implements ITemplate
+        Private m_ColumnName As String
+        Public Property ColumnName() As String
+            Get
+                Return m_ColumnName
+            End Get
+            Set(ByVal value As String)
+                m_ColumnName = value
+            End Set
+        End Property
+        Private m_NavigateTo As String
+        Public Property NavigateTo() As String
+            Get
+                Return m_NavigateTo
+            End Get
+            Set(ByVal value As String)
+                m_NavigateTo = value
+            End Set
+        End Property
+        Private m_QueryStringNames As String
+        Public Property QueryStringNames() As String
+            Get
+                Return m_QueryStringNames
+            End Get
+            Set(ByVal value As String)
+                m_QueryStringNames = value
+            End Set
+        End Property
+        Private m_QueryStringValues As String
+        Public Property QueryStringValues() As String
+            Get
+                Return m_QueryStringValues
+            End Get
+            Set(ByVal value As String)
+                m_QueryStringValues = value
+            End Set
+        End Property
+        Public Sub New()
+        End Sub
+        Public Sub New(ByVal ColumnName As String)
+            Me.ColumnName = ColumnName
+        End Sub
+        Private Sub InstantiateIn(ByVal ThisColumn As System.Web.UI.Control) Implements ITemplate.InstantiateIn
+            Dim HyperLinkItem As New HyperLink()
+            HyperLinkItem.ID = "hl" & ColumnName
+            AddHandler HyperLinkItem.DataBinding, AddressOf HyperLinkItem_DataBinding
+            ThisColumn.Controls.Add(HyperLinkItem)
+        End Sub
+        Private Sub HyperLinkItem_DataBinding(ByVal sender As Object, ByVal e As EventArgs)
+            Dim HyperLinkItem As HyperLink = DirectCast(sender, HyperLink)
+            Dim CurrentRow As GridViewRow = DirectCast(HyperLinkItem.NamingContainer, GridViewRow)
+            Dim CurrentDataItem As Object = DataBinder.Eval(CurrentRow.DataItem, ColumnName)
+            If Not CurrentDataItem Is DBNull.Value Then
+                HyperLinkItem.Text = CurrentDataItem.ToString()
+                Dim NavigateUrl As String = NavigateTo
+                If (Not String.IsNullOrEmpty(QueryStringNames) AndAlso _
+                    Not String.IsNullOrEmpty(QueryStringValues)) Then
+                    Dim ItemIndex As Integer = 0
+                    Dim itemName As String = ""
+                    For Each ItemName In QueryStringNames.Split(",")
+                        If (NavigateUrl.Contains("?")) Then
+                            NavigateUrl &= "&"
+                        Else
+                            NavigateUrl &= "?"
+                        End If
+                        Dim QueryDataItem As Integer = DataBinder.Eval(CurrentRow.DataItem, QueryStringValues.Split(",")(ItemIndex))
+                        NavigateUrl &= ItemName & "=" & QueryDataItem.ToString()
+                        ItemIndex += 1
+                    Next
+                End If
+                HyperLinkItem.NavigateUrl = NavigateUrl
+            End If
+        End Sub
+    End Class
+End Class

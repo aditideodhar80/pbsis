@@ -1,0 +1,1577 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<charts>
+  <chartsettings>
+    <!--School Login - END YEAR REPORTS START-->
+    <!--ODR's over Years of Implementation-->
+    <chart id="7_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>ODR's over Years of Implementation </text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="False" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Year</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Total ODRs</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>0</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="db" orientationAngle="55">
+      </XAxisLabels>
+    </chart>
+    <!--ODR Referrals per 100 Students-->
+    <chart id="8_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Referrals Per 100 Students </text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="False" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Year</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Total Referrals Per 100</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="db" orientationAngle="55">
+
+      </XAxisLabels>
+    </chart>
+    <!--ISS & OSS Over Years of Implementation-->
+    <chart id="9_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>ISS and OSS over years of Implementation </text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Suspension Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Number of ISS and OSS Days</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="0">
+        <label name="Sum of ISS"/>
+        <label name="Sum of OSS"/>
+      </XAxisLabels>
+    </chart>
+    <!--ISS & OSS per 100 Students-->
+    <chart id="10_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>ISS and OSS Per 100 Students</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Suspension Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Total Days per 100</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>200</UpperLimit>
+        <MaxTic>50</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="0">
+        <label name="Sum of ISS"/>
+        <label name="Sum of OSS"/>
+      </XAxisLabels>
+    </chart>
+    <!--Average Daily Attendance-->
+    <chart id="11_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Average Daily Attendance</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="False" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Year</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Percent Attendance</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="db" orientationAngle="55">
+      </XAxisLabels>
+    </chart>
+    <!--Benchmark of Quality Score per Critical Element-->
+    <chart id="12_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Benchmark of Quality Score per critical Element Category</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Critical Element Category</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Percentage of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="PBS Team"/>
+        <label name="Faculty Commitment"/>
+        <label name="Effective Procedures"/>
+        <label name="Data Entry Plan"/>
+        <label name="Expectations"/>
+        <label name="Reward Program"/>
+        <label name="Lesson Plans"/>
+        <label name="Implementation Plan"/>
+        <label name="Crisis Plan"/>
+        <label name="Classroom"/>
+        <label name="Evaluation"/>
+        <label name="Total Score"/>
+      </XAxisLabels>
+    </chart>
+    <!--Annual B.A.T. Subsection Report-->
+    <chart id="42_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="barlayer">3</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>B.A.T. Subsection Report</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Foundations</item>
+        <item>Tier II</item>
+        <item>Tier III</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implemented Year</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>% of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>0</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="A: Tier I"/>
+        <label name="B: Tier II and III Foundations"/>
+        <label name="C: Student Identification"/>
+        <label name="D: Monitoring and Eval"/>
+        <label name="E: Tier II Support"/>
+        <label name="F: Main Tier II"/>
+        <label name="G: Tier II Monitoring"/>
+        <label name="H: Tier III Supports"/>
+        <label name="I: Tier III Assessment"/>
+        <label name="J: Tier III Monitoring"/>
+      </XAxisLabels>
+    </chart>
+    <!--Multi-Year B.A.T. Report-->
+    <chart id="43_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">3</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>380</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Multi-Year B.A.T. Report</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Foundations</item>
+        <item>Tier II</item>
+        <item>Tier III</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implemented Year</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>% of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="db" orientationAngle="55">
+      </XAxisLabels>
+    </chart>
+    <!--School Login - END YEAR REPORTS END-->
+
+    <!--School Login - MID YEAR REPORTS START-->
+    <!--PIC - Tier 1 Critical Element-->
+    <chart id="13_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>PIC - Tier 1 Critical Elements</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Tier 1 Critical Element</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Percentage of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Coach and Team"/>
+        <label name="Buy-In"/>
+        <label name="Expectations"/>
+        <label name="Rewards"/>
+        <label name="Discipline"/>
+        <label name="DBDM"/>
+        <label name="Training"/>
+        <label name="Parents/Community"/>
+      </XAxisLabels>
+    </chart>
+    <!--PIC -  Implementation Level-->
+    <chart id="14_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>PIC - Implementation Level</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Percentage of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Tier 1 - Preparation"/>
+        <label name="Tier 1 - Initiation"/>
+        <label name="Tier 1 - Implementation"/>
+        <label name="Tier 1 - Maintainance"/>
+        <label name="Tier 2 - Supplemental"/>
+        <label name="Tier 3 - Intensive"/>
+      </XAxisLabels>
+    </chart>
+    <!--School Login - MID YEAR REPORTS END-->
+
+    <!--District / FMHI Login - Mid-Year District Level Reports START-->
+    <!--PIC - Implementation Level-->
+    <chart id="19_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>PIC - Implementation Level</text>
+        <font face="Arial" color="Black" size="10"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg % of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="11"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Tier 1- Preparation" />
+        <label name="Tier 1- Initiation"/>
+        <label name="Tier 1- Implementation"/>
+        <label name="Tier 1- Maintenance"/>
+        <label name="Tier 2- Supplemental"/>
+        <label name="Tier 3- Intensive"/>
+      </XAxisLabels>
+    </chart>
+    <!--PIC - Tier 1 Critical Elements-->
+    <chart id="20_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>PIC - Tier 1 Critical Elements</text>
+        <font face="Arial" color="Black" size="10"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg % of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>25</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="11"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Coach and Team" />
+        <label name="Buy-In"/>
+        <label name="Expectations"/>
+        <label name="Regards"/>
+        <label name="Discipline"/>
+        <label name="DBDM"/>
+        <label name="Training"/>
+        <label name="Parents/Community"/>
+      </XAxisLabels>
+    </chart>
+    <!--PIC - Implementation Level (Grouped by PreK)-->
+    <chart id="21_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="False" type="dataset"></Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>PIC - Implementation Level</text>
+        <font face="Arial" color="Black" size="10"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Fall</item>
+        <item>Spring</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation Level/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="11"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Tier 1- Preparation" />
+        <label name="Tier 1- Initiation"/>
+        <label name="Tier 1- Implementation"/>
+        <label name="Tier 1- Maintenance"/>
+        <label name="Tier 2- Supplemental"/>
+        <label name="Tier 3- Intensive"/>
+      </XAxisLabels>
+    </chart>
+    <!--PIC - Implementation Level (Grouped by Elementary)-->
+    <chart id="21_1" height="560" width="792" barstyle="Side">
+      <Multibar enabled="False" type="dataset"></Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>PIC - Implementation Level</text>
+        <font face="Arial" color="Black" size="10"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+       
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation Level/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="11"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Tier 1- Preparation" />
+        <label name="Tier 1- Initiation"/>
+        <label name="Tier 1- Implementation"/>
+        <label name="Tier 1- Maintenance"/>
+        <label name="Tier 2- Supplemental"/>
+        <label name="Tier 3- Intensive"/>
+      </XAxisLabels>
+    </chart>
+    <!--PIC - Implementation Level (Grouped by Middle)-->
+    <chart id="21_2" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>PIC - Implementation Level</text>
+        <font face="Arial" color="Black" size="10"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Fall</item>
+        <item>Spring</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation Level/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="11"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Tier 1- Preparation" />
+        <label name="Tier 1- Initiation"/>
+        <label name="Tier 1- Implementation"/>
+        <label name="Tier 1- Maintenance"/>
+        <label name="Tier 2- Supplemental"/>
+        <label name="Tier 3- Intensive"/>
+      </XAxisLabels>
+    </chart>
+    <!--PIC - Implementation Level (Grouped by High)-->
+    <chart id="21_3" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>PIC - Implementation Level</text>
+        <font face="Arial" color="Black" size="10"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Fall</item>
+        <item>Spring</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation Level/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="11"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Tier 1- Preparation" />
+        <label name="Tier 1- Initiation"/>
+        <label name="Tier 1- Implementation"/>
+        <label name="Tier 1- Maintenance"/>
+        <label name="Tier 2- Supplemental"/>
+        <label name="Tier 3- Intensive"/>
+      </XAxisLabels>
+    </chart>
+    <!--PIC - Implementation Level (Grouped by Alt/Center)-->
+    <chart id="21_4" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>PIC - Implementation Level</text>
+        <font face="Arial" color="Black" size="10"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Fall</item>
+        <item>Spring</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation Level/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="11"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Tier 1- Preparation" />
+        <label name="Tier 1- Initiation"/>
+        <label name="Tier 1- Implementation"/>
+        <label name="Tier 1- Maintenance"/>
+        <label name="Tier 2- Supplemental"/>
+        <label name="Tier 3- Intensive"/>
+      </XAxisLabels>
+    </chart>
+    <!--Tier 1 Critical Elements (Grouped by PreK)-->
+    <chart id="22_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="False" type="dataset"></Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Tier 1 Critical Elements </text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Fall</item>
+        <item>Spring</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation checklist/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg PBS per 100 Students</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Coach and Team" />
+        <label name="Buy-In"/>
+        <label name="Expectations"/>
+        <label name="Regards"/>
+        <label name="Discipline"/>
+        <label name="DBDM"/>
+        <label name="Training"/>
+        <label name="Parents/Community"/>
+      </XAxisLabels>
+    </chart>
+    <!--Tier 1 Critical Elements (Grouped by Elementary)-->
+    <chart id="22_1" height="560" width="792" barstyle="Side">
+      <Multibar enabled="False" type="dataset"></Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Tier 1 Critical Elements</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Fall</item>
+        <item>Spring</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation checklist/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg PBS per 100 Students</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Coach and Team" />
+        <label name="Buy-In"/>
+        <label name="Expectations"/>
+        <label name="Regards"/>
+        <label name="Discipline"/>
+        <label name="DBDM"/>
+        <label name="Training"/>
+        <label name="Parents/Community"/>
+      </XAxisLabels>
+    </chart>
+    <!--Tier 1 Critical Elements (Grouped by Middle)-->
+    <chart id="22_2" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Tier 1 Critical Elements</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Fall</item>
+        <item>Spring</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation checklist/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg PBS per 100 Students</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Coach and Team" />
+        <label name="Buy-In"/>
+        <label name="Expectations"/>
+        <label name="Regards"/>
+        <label name="Discipline"/>
+        <label name="DBDM"/>
+        <label name="Training"/>
+        <label name="Parents/Community"/>
+      </XAxisLabels>
+    </chart>
+    <!--Tier 1 Critical Elements (Grouped by High)-->
+    <chart id="22_3" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Tier 1 Critical Elements</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Fall</item>
+        <item>Spring</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation checklist/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg PBS per 100 Students</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Coach and Team" />
+        <label name="Buy-In"/>
+        <label name="Expectations"/>
+        <label name="Regards"/>
+        <label name="Discipline"/>
+        <label name="DBDM"/>
+        <label name="Training"/>
+        <label name="Parents/Community"/>
+      </XAxisLabels>
+    </chart>
+    <!--Tier 1 Critical Elements (Grouped by Alt/Center)-->
+    <chart id="22_4" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Tier 1 Critical Elements</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Fall</item>
+        <item>Spring</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="5" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>PBS Implementation checklist/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg PBS per 100 Students</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="Coach and Team" />
+        <label name="Buy-In"/>
+        <label name="Expectations"/>
+        <label name="Regards"/>
+        <label name="Discipline"/>
+        <label name="DBDM"/>
+        <label name="Training"/>
+        <label name="Parents/Community"/>
+      </XAxisLabels>
+    </chart>
+    <!--District / FMHI Login - Mid-Year District Level Reports END-->
+
+
+    <!--END YEAR DISTRICT LEVEL REPORTS START-->
+    <!--Average ODR per 100 Students by Implementation level-->
+    <chart id="31_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Average ODR per 100 Students by Implementation level</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Average Per 100 Students</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>1000</UpperLimit>
+        <MaxTic>100</MaxTic>
+        <MinTic>0</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="0">
+        <label name="Lower Implementing"/>
+        <label name="Higher Implementing"/>
+      </XAxisLabels>
+    </chart>
+    <!--Average ISS Days per 100 Students by Implementation level-->
+    <chart id="32_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Average ISS Days per 100 Students by Implementation level</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Average ISS Days Per 100 Students</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>300</UpperLimit>
+        <MaxTic>50</MaxTic>
+        <MinTic>0</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="0">
+        <label name="Lower Implementing"/>
+        <label name="Higher Implementing"/>
+      </XAxisLabels>
+    </chart>
+    <!--Average OSS Days per 100 Students by Implementation level-->
+    <chart id="33_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Average OSS Days per 100 Students by Implementation level</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Average OSS Days Per 100 Students</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>700</UpperLimit>
+        <MaxTic>50</MaxTic>
+        <MinTic>0</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="0">
+        <label name="Lower Implementing"/>
+        <label name="Higher Implementing"/>
+      </XAxisLabels>
+    </chart>
+    <!--Percentage making gains in reading by School Implementation level-->
+    <chart id="34_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Percentage making gains in reading by School Implementation level</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>District Avg. of Percentage Making Gains in Reading</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="0">
+        <label name="Lower Implementing"/>
+        <label name="Higher Implementing"/>
+      </XAxisLabels>
+    </chart>
+    <!--Percentage of Lowest 25% Making Gains in Reading By School Implementation Level-->
+    <chart id="35_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Percentage of Lowest 25% Making Gains in Reading By School Implementation Level</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>District Average of Lowest 25% Making Gains in Reading</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="0">
+        <label name="Lower Implementing"/>
+        <label name="Higher Implementing"/>
+      </XAxisLabels>
+    </chart>
+    <!--Average Daily attendance for Higher and Lower implementing schools-->
+    <chart id="36_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Average Daily attendance for Higher and Lower implementing schools</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>District average of percentage attendance</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="0">
+        <label name="Lower Implementing"/>
+        <label name="Higher Implementing"/>
+      </XAxisLabels>
+    </chart>
+    <!--District percentage of Students at FCAT reading Level 3 by PBS Implementation Level-->
+    <chart id="37_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>District percentage of Students at FCAT reading Level 3 by PBS Implementation Level</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Percentage of Students at FCAT reading Level 3</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="0">
+        <label name="Lower Implementing"/>
+        <label name="Higher Implementing"/>
+      </XAxisLabels>
+    </chart>
+    <!--Average Benchmark Score Per Critical Element Category (All School Types)-->
+    <chart id="38_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">3</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Average Benchmark Score Per Critical Element Category (All School Types)</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Critical Element Category</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="PBS Team"/>
+        <label name="Faculty Commitment"/>
+        <label name="Effective Procedures"/>
+        <label name="Data Entry Plan"/>
+        <label name="Expectations"/>
+        <label name="Reward Program"/>
+        <label name="Lesson Plans"/>
+        <label name="Implementation Plan"/>
+        <label name="Crisis Plan"/>
+        <label name="Classroom"/>
+        <label name="Evaluation"/>
+        <label name="Total Score"/>
+      </XAxisLabels>
+    </chart>
+    <!--Schools Trained in PBS : Inactive/Active-->
+    <chart id="39_0" height="560" width="792" barstyle="Stack">
+      <Multibar enabled="True" type="dataset">2</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>310</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Schools Trained in PBS : Inactive/Active</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Sum of Active</item>
+        <item>Sum of Inactive</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Schools Trained</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Percentage of Schools</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>12</UpperLimit>
+        <MaxTic>1</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="db" orientationAngle="0">
+        
+      </XAxisLabels>
+    </chart>
+    <!--Average ODR per 100 Students for Lower and Higher Implementing Schools (Grouped by School Type)-->
+    <chart id="40_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">5</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Average ODR per 100 Students for Lower and Higher Implementing Schools</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implementation Level/School Type</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Average ODR Per 100 Students</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>20</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="0">
+        <label name="Lower Implementing"/>
+        <label name="Higher Implementing"/>
+      </XAxisLabels>
+    </chart>
+    <!--Average Benchmark Score Per Critical Element Category (Grouped by School Type)-->
+    <chart id="41_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">3</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>Average Benchmark Score Per Critical Element Category</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="db" x="" y="" vertical="False">
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Critical Element Category</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>Avg Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="PBS Team"/>
+        <label name="Faculty Commitment"/>
+        <label name="Effective Procedures"/>
+        <label name="Data Entry Plan"/>
+        <label name="Expectations"/>
+        <label name="Reward Program"/>
+        <label name="Lesson Plans"/>
+        <label name="Implementation Plan"/>
+        <label name="Crisis Plan"/>
+        <label name="Classroom"/>
+        <label name="Evaluation"/>
+        <label name="Total Score"/>
+      </XAxisLabels>
+    </chart>
+    <!--B.A.T. Subsection Report-->
+    <chart id="44_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="barlayer">3</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>B.A.T. Subsection Report</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Foundations</item>
+        <item>Tier II</item>
+        <item>Tier III</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implemented Year</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>% of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="A: Tier I"/>
+        <label name="B: Tier II and III Foundations"/>
+        <label name="C: Student Identification"/>
+        <label name="D: Monitoring and Eval"/>
+        <label name="E: Tier II Support"/>
+        <label name="F: Main Tier II"/>
+        <label name="G: Tier II Monitoring"/>
+        <label name="H: Tier III Supports"/>
+        <label name="I: Tier III Assessment"/>
+        <label name="J: Tier III Monitoring"/>
+      </XAxisLabels>
+    </chart>
+    <!--B.A.T. Summary Report-->
+    <chart id="45_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">3</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>B.A.T. Summary Report</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>False</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Foundations</item>
+        <item>Tier II</item>
+        <item>Tier III</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text></text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>% of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="db" orientationAngle="55">
+      </XAxisLabels>
+    </chart>
+    <!--B.A.T. Subsection Report (Grouped by School Type)-->
+    <chart id="46_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="barlayer">3</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>B.A.T. Subsection Report</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Foundations</item>
+        <item>Tier II</item>
+        <item>Tier III</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implemented Year</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>% of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>100</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="xml" orientationAngle="55">
+        <label name="A: Tier I"/>
+        <label name="B: Tier II and III Foundations"/>
+        <label name="C: Student Identification"/>
+        <label name="D: Monitoring and Eval"/>
+        <label name="E: Tier II Support"/>
+        <label name="F: Main Tier II"/>
+        <label name="G: Tier II Monitoring"/>
+        <label name="H: Tier III Supports"/>
+        <label name="I: Tier III Assessment"/>
+        <label name="J: Tier III Monitoring"/>
+      </XAxisLabels>
+    </chart>
+    <!--B.A.T. Report (Grouped by School Type)-->
+    <chart id="47_0" height="560" width="792" barstyle="Side">
+      <Multibar enabled="True" type="dataset">3</Multibar>
+      <PlotXPosition>80</PlotXPosition>
+      <PlotYPosition>500</PlotYPosition>
+      <PlotHeight>320</PlotHeight>
+      <PlotWidth>600</PlotWidth>
+      <Title enabled="True">
+        <text>B.A.T. Summary Report</text>
+        <font face="Arial" color="Red" size="10" bold="true" italic="False" underline="True"></font>
+      </Title>
+      <GroupBy>True</GroupBy>
+      <Legend enabled="True" type="xml" x="" y="" vertical="False">
+        <item>Foundations</item>
+        <item>Tier II</item>
+        <item>Tier III</item>
+      </Legend>
+      <LegendFont>
+        <font face="Arial" color="Black" size="8" bold="False" italic="False" underline="False"></font>
+      </LegendFont>
+      <XAxisTitle enabled="True">
+        <text>Implemented Year</text>
+      </XAxisTitle>
+      <YAxisTitle enabled="True">
+        <text>% of Possible Points Scored</text>
+        <LowerLimit>0</LowerLimit>
+        <UpperLimit>50</UpperLimit>
+        <MaxTic>10</MaxTic>
+        <MinTic>5</MinTic>
+      </YAxisTitle>
+      <TopMargin enabled="True">
+        <margin>28</margin>
+      </TopMargin>
+      <Label type="db">
+        <font face="Arial" color="00000000" size="10" bold="False" italic="False" underline="False"></font>
+      </Label>
+      <XAxisLabels type="db" orientationAngle="55">
+      </XAxisLabels>
+    </chart>
+    <!--END YEAR DISTRICT LEVEL REPORTS END-->
+  </chartsettings>
+</charts>
